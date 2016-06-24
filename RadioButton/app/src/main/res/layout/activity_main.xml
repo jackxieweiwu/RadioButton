@@ -7,29 +7,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <com.example.jeffrey.radiobutton.view.CenterTextView
-        android:text="333"
+    <com.example.jeffrey.radiobutton.view.NumberRadioButton
+        android:id="@+id/num"
+        android:button="@null"
+        style="@style/main_tab_bottom"
+        android:drawableTop="@drawable/order_selector"
+        android:text="菜单"
         android:layout_gravity="center_horizontal"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
 
-    <com.example.jeffrey.radiobutton.view.CenterTextView
-        android:text="1"
+    <com.example.jeffrey.radiobutton.view.NumberRadioButton
+        android:id="@+id/num2"
+        android:button="@null"
+        style="@style/main_tab_bottom"
+        android:drawableTop="@drawable/order_selector"
+        android:text="菜单"
         android:layout_gravity="center_horizontal"
-        android:layout_centerHorizontal="true"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
-    <com.example.jeffrey.radiobutton.view.CenterTextView
-        android:text="11"
-        android:layout_gravity="center_horizontal"
-        android:layout_centerHorizontal="true"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
-
-    <com.example.jeffrey.radiobutton.view.CenterTextView
-        android:text="666"
-        android:layout_gravity="center_horizontal"
-        android:layout_centerHorizontal="true"
-        android:layout_width="100dp"
-        android:layout_height="100dp" />
+        android:layout_marginTop="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
 </LinearLayout>
